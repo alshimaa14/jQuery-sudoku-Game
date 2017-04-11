@@ -1,0 +1,97 @@
+
+#timer{
+  width: 100px;
+  height: 50px;
+  background-color: lightgray;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 10px;
+}
+#mainDiv{
+  text-align: center;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+}
+table{
+  border: 6px solid #778899;
+  border-radius:9px;
+  -moz-border-radius:9px;
+  width: 450px;
+  height: 450px;
+  margin: auto;
+}
+table td {
+  width: 30px;
+  height: 30px;
+  border-spacing: 2px;
+}
+table tr{
+  border-spacing: 2px;
+}
+input{
+  height: 100%;
+  width: 95%;
+  text-align: center;
+  border: 3px solid #B0C4DE;
+   border-radius:4px;
+  -moz-border-radius:4px;
+}
+input[type=text]:focus{
+  border: 3px solid yellow;
+  /*background: lightpink;*/
+}
+
+#lightBox{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  margin:  auto;
+  left: 0;
+  opacity: .4;
+  text-align: center;
+  display: none;
+  z-index:  1;
+  border-radius:9px;
+  -moz-border-radius:9px;
+
+}
+   
+
+.internalDiv {
+   position:fixed;
+  background-color: #87CEFA;
+  margin: 20px auto;
+  margin-top: 20px;
+  width: 500px;
+  height: 400px;
+  top: 18%;
+  left: 31%;
+  border-radius:9px;
+  -moz-border-radius:9px;
+
+}
+p{
+  color: #000;
+  margin-top: 110px; 
+  text-align: center;
+  font-size: 24px;
+  margin: 100px;
+
+}
+button{
+  height: 60px;
+  width: 80px;
+  text-align: center;
+  font-size: 10px;
+  color: white;
+  background-color: black;
+  border-radius:9px;
+  -moz-border-radius:9px;
+}
+
+
+
